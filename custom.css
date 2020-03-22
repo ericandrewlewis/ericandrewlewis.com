@@ -1,9 +1,14 @@
 body {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .site-header {
   margin-bottom: 2rem;
+}
+
+.article {
+  background-color: #ebf4f9;
+  padding: 1rem;
 }
 
 /* Copy should not be wider than 70 characters on a screen for ease of reading. */
