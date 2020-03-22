@@ -6,6 +6,19 @@ body {
   margin-bottom: 2rem;
 }
 
+.site-header a {
+  color: #212529;
+}
+
+.site-header-description {
+  margin-bottom: 2rem;
+}
+
+.site-nav {
+  background-color: #FAF5ED;
+  padding: 1rem;
+}
+
 .article {
   background-color: #ebf4f9;
   padding: 1rem;
