@@ -1,0 +1,27 @@
+body {
+  margin-top: 3rem;
+}
+
+.site-header {
+  margin-bottom: 2rem;
+}
+
+/* Copy should not be wider than 70 characters on a screen for ease of reading. */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .copy-container.copy-container {
+    max-width: 36rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .copy-container.copy-container {
+    max-width: 36rem;
+  }
+}
+
+.post-time-container {
+  margin-bottom: 1rem;
+}

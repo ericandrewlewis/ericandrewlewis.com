@@ -1,55 +1,39 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round|Righteous" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.4/svg.min.js"></script>
-  <script src="script.js"></script>
-  <title>Eric Lewis</title>
-</head>
-<body>
-  <svg class="name-svg" viewbox="0 0 100 15" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
-        <stop class="stop1" offset="0%"/>
-        <stop class="stop2" offset="45%"/>
-        <stop class="stop3" offset="50%"/>
-        <stop class="stop4" offset="100%"/>
-      </linearGradient>
-      <style type="text/css"><![CDATA[
-        .stop1 { stop-color: #97D1A1; }
-        .stop2 { stop-color: #7DC68A; }
-        .stop3 { stop-color: #4DAF5F; }
-        .stop4 { stop-color: #40904E; }
-      ]]></style>
-      <mask maskUnits="userSpaceOnUse" id="sheen">
-        <text class="name" x="2.5" y ="12" fill="white" stroke-width="0.5" stroke="white" stroke-linecap="butt">Eric Lewis</text>
-      </mask>
-      <linearGradient id="Gradient2" gradientTransform="rotate(-15)">
-        <stop offset="0%"  stop-color="transparent"/>
-        <stop offset="10%"  stop-color="transparent"/>
-        <stop offset="20%"  stop-color="white"/>
-        <stop offset="30%"  stop-color="transparent"/>
-        <stop offset="35%"  stop-color="white"/>
-        <stop offset="40%"  stop-color="transparent"/>
-      </linearGradient>
-    </defs>
-    <text class="name" x="2.5" y ="12" fill="url(#Gradient1)" stroke-width="0.5" stroke="#FE5D26" stroke-linecap="butt">Eric Lewis</text>
-    <g mask="url(#sheen)">
-      <rect class="sheen-over-name" x="-100" y="0" width="100" height="100" fill="url(#Gradient2)" opacity="0.75">
-    </g>
-  </svg>
-  <ul class="links">
-    <li><a href="https://medium.com/@ericandrewlewis/a-list-of-things-ive-made-e7d1087eec26">Projects</a></li>
-    <li><a href="https://medium.com/@ericandrewlewis/my-open-source-contributions-6d9753b2d10">Open Source</a></li>
-    <li><a href="https://medium.com/@ericandrewlewis/a-list-of-my-talks-and-workshops-9c4b4b89cb08">Talks I've given</a></li>
-    <li><a href="https://twitter.com/@ericandrewlewis">Twitter</a></li>
-  </ul>
 
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <main role="main" class="container copy-container">
+      <div class="site-header">
+        <h1>Plants are pets now</h1>
+        <h2>Eric's blog</h2>
+      </div>
+      <div class="post-time-container">
+        <time>Sunday Morning, March 22, 2020</time>
+      </div>
+      <p>Hi there. I hope you are doing okay during the staying in. Things are a bit undetermined right now. I've had a ton of trouble keeping it together these last two weeks myself. It is completely normal if you are too.</p>
+      <p>On this site I will write about my experiences to help myself process, but also to help you process. We are going to get through this together. Keeping track of how we feel and what we're going through is important work right now.</p>
+      <p>The content will probably be critical reflection. It will range in tone between neutral and uplifting. I will not be writing about Coronavirus itself or the problems it is creating in our society. There is enough of that content on other websites.</p>
+      <p>I'll post more here soon. Since you probably won't check my website every day, I'm going to figure out a way to let you know when I write more.</p>
+      <p>Let me know if you want me to send you a note when I have updates here. I'll respect the amount of notifications and information coming your way that you do not need.</p>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
 </html>
