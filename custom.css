@@ -22,6 +22,13 @@ body {
 .article {
   background-color: #ebf4f9;
   padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.article .blockquote {
+  padding: 0 1rem;
+  border-left: 0.25rem solid #A4AAAE;
+  font-size: 1rem;
 }
 
 /* Copy should not be wider than 70 characters on a screen for ease of reading. */
